@@ -24,5 +24,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Bot
-        run: python bot.py
+      - name: Run Bot with Timeout
+        run: |
+          timeout 350m python bot.py || true
