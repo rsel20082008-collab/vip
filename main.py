@@ -219,11 +219,11 @@ def send_welcome(message):
         f"اختر من القائمة الشفافة أدناه للتحكم الكامل:"
     )
     bot.send_message(
-        message.chat.id,
-        welcome_text,
-        reply_markup=main_menu_keyboard(user.id)
-    )
-
+    chat_id=message.chat.id,
+    text=welcome_text,
+    reply_markup=main_menu_keyboard(user.id)
+)
+    
 # ==============================================================================
 #                       5. CALLBACK QUERY PROCESSOR
 # ==============================================================================
