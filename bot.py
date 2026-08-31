@@ -14,8 +14,8 @@ from telebot import types
 #                       1. CONFIGURATION & CONSTANTS
 # ==============================================================================
 
-BOT_TOKEN = "8931553128:AAEizyl4u23sxZltvXuQhpH42kezELreY5I"
-BOT_USERNAME = "@x96n_bot"
+BOT_TOKEN = "8271205861:AAGTOYtJQCvhS50Mgvx9Uum6L1r9xsdrfl4"
+BOT_USERNAME = "@servers_1_bot"
 
 SERVER_BASE_URL = "https://sajin13-production.up.railway.app"
 SERVER_CONNECT_URL = "https://sajin13-production.up.railway.app/connect"
@@ -25,7 +25,7 @@ ADMIN_TOKEN = "SAJIN_SECRET_DEV_KEY_2026"
 ADMIN_IDS = [8206337665] 
 
 SYSTEM_NAME = "SAJIN"
-RIGHTS_HEADER = "👑 <b>SAJIN SYSTEM v4.0</b> 👑"
+RIGHTS_HEADER = "👑 <b>SAJIN</b> 👑"
 RIGHTS_FOOTER = "© 2026 SAJIN TOP."
 
 logging.basicConfig(
